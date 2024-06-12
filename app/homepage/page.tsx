@@ -24,10 +24,11 @@ const page = async () => {
   console.log(user);
   //console.log(await isAuthenticated());
   return (
+    //This is going to have a customized feed by AI
     <div>
       <Container>
         HomePage
-        <ItemCard/>        
+        <ItemCard />
       </Container>
     </div>
   );
